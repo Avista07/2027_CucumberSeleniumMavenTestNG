@@ -1,0 +1,70 @@
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- Java ---
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# --- TestNG, Cucumber & Test Reports ---
+test-output/
+cucumber-reports/
+allure-results/
+allure-report/
+extent-reports/
+screenshots/
+videos/
+*.html
+
+# --- WebDrivers (if stored locally) ---
+chromedriver*
+geckodriver*
+msedgedriver*
+
+# --- IDE: IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- IDE: Eclipse ---
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+
+# --- IDE: VS Code ---
+.vscode/
+
+# --- Environment & OS Files ---
+.env
+*.env
+.DS_Store
+Thumbs.db

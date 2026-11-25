@@ -1,0 +1,25 @@
+mvn test -Ptest -Ddataproviderthreadcount=2 -Dcucumber.filter.tags="@Smoke"
+
+
+
+GIT Commands:
+# 1. Navigate into your project folder
+cd path/to/your/project
+
+# 2. Initialize a new local Git repository
+git init
+
+# 3. Stage all your project files
+git add .
+
+# 4. Save your first commit
+git commit -m "Initial commit"
+
+# 5. Rename the default branch to main
+git branch -M main
+
+# 6. Connect your local folder to the GitHub repository
+git remote add origin https://github.com/Avista07/2027_CucumberSeleniumMavenTestNG.git
+
+# 7. Upload your files to GitHub
+git push -u origin main
