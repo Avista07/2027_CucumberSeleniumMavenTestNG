@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Run Regression Tests') {
+        stage('Run spotless:apply') {
             steps {
                 sh 'mvn spotless:apply'
             }
         }
-        stage('Run Regression Tests') {
+        stage('Run mvn clean') {
             steps {
                 sh 'mvn clean'
             }
