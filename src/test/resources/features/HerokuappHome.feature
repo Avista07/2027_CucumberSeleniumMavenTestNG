@@ -6,7 +6,7 @@ Feature: Herokuapp home page
     Given Navigate to Herokuapp
     Then Herokuapp home page title is correct
 
-@Regression @Facebook
+  @Smoke @Regression @Facebook
   Scenario: Verify name of Herokuapp home page 2
     Given Navigate to Herokuapp
     Then Herokuapp home page title is correct

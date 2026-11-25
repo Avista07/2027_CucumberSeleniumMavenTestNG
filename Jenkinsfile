@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run mvn test') {
             steps {
-                sh 'mvn test -Ptest'
+                sh 'mvn test -Ptest -Ddataproviderthreadcount=2 -Dcucumber.filter.tags="@Smoke"'
             }
         }
     }

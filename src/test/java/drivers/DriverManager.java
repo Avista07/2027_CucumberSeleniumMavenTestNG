@@ -12,7 +12,7 @@ public class DriverManager {
       ChromeOptions options = new ChromeOptions();
       // Recommended for stability when running multiple browsers in parallel
       // options.addArguments("--headless=false", "--disable-gpu", "--window-size=1920,1080");
-      options.addArguments("--window-size=1920,1080");
+      options.addArguments("--headless=true", "--window-size=1920,1080");
       driverThreadLocal.set(new ChromeDriver(options));
     }
     return driverThreadLocal.get();
